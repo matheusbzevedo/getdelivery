@@ -28,6 +28,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- GOOGLE ANALYTICS -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-66903414-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- GOOGLE ANALYTICS -->
 </head>
 
 <body>
@@ -213,7 +224,7 @@
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (92) 98233-7195</li>
                         <li><i class="fa fa-phone fa-fw"></i> (92) 99102-1926</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:getdeliveryapp@gmail.com">getdeliveryapp@gmail.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:contato@getdelivery.com">contato@getdelivery.com</a>
                         </li>
                     </ul>
                     <br>
