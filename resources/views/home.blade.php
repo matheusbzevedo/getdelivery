@@ -11,6 +11,9 @@
 
     <title>GetDelivery</title>
 
+    <link rel="shortcut icon" type="image/png" href="{{URL::asset('assets/img/favicon.png')}}"/>
+    <link rel="shortcut icon" type="image/png" href="{{URL::asset('assets/img/favicon.png')}}"/>
+
     <!-- Bootstrap Core CSS -->
     <link href="{{URL::asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
 
