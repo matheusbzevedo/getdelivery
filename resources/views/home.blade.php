@@ -4,8 +4,8 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -19,6 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="{{URL::asset('assets/css/stylish-portfolio.css')}}" rel="stylesheet">
+     <link href="{{URL::asset('assets/css/style-menu.css')}}" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="{{URL::asset('assets/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
@@ -47,7 +48,7 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+   <!--  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -64,17 +65,38 @@
                 <a href="#contato" onclick = $("#menu-close").click(); >Contato</a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
+
+    <header>
+      <h1 class="float-l">
+        <a href="#" title="Get Delivery"><img class='menu' src="{{URL::asset('assets/img/logo_cor.png')}}" width='150px' height='44px'/></a>
+      </h1>
+      
+      <input type="checkbox" id="control-nav" />
+      <label for="control-nav" class="control-nav"></label>
+      <label for="control-nav" class="control-nav-close"></label>
+
+      <nav class="float-r">
+        <ul class="list-auto">
+          <li>
+            <a href="#" title="">Quem Somos?</a>
+          </li>
+          <li>
+            <a href="#" title="">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <div id="top" class="header">
         <div class="text-vertical-center">
             <h1>GetDelivery</h1>
             <h3></h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Como funciona?</a>
         </div>
-    </header>
+    </div>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
